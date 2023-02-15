@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> sign up Form</title>
+    <style>
+       body{
+            background-image: url("pic_3.jpg");
+            background-repeat: no-repeat;
+            background-size: 1400px 800px;
+       }
+        .block{
+            color:#00008B;
+        
+        }
+        .form{
+            color: purple;
+        }
+        .name{
+            border-color: blueviolet;
+            border-radius: 10%;
+            
+        }
+        .sign{
+            color: blueviolet;
+            background-color: lightgrey;
+            font-size: medium;
+            border-color: darkslategray;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <h2 class="form"><center>REGISTRATION FORM</center></h2><br>
+      <div class="block">
+         <form action="login.html" target="_blank">
+           <lable><center><h3>Enter your full Name</h3></center></lable>
+           <center><input class="name" type="text" name="Name" required></center><br>
+           <label><center><h3>Enter your Email</h3></center></label>
+           <center><input class="name" type="email" name="Email" required></center><br>
+           <label><center><h3>Enter your password</h3></center></label>
+           <center><input class="name" type="password" name="password" required></center><br>
+           <label><center><h3>Confirm password</h3></center></label>
+           <center><input class="name" type="confirm_password" name="confirm_password" required></center><br>
+           <lable><center><h3>Select your gender</h3></center></lable>
+           <center><input class="name" type="radio" name="gender" value="male">Male</center>
+           <center><input class="name" type="radio" name="gender" value="female">Female</center>
+           <center><input class="name" type="radio" name="gender" value="other"> Other</center>
+           <label><center><h3>Enter your address</h3></center></label>
+           <center><textarea></textarea></center>
+           <center><input class="box" type="checkbox" name="checkbox" required>I agree</center>
+           <center>
+            <input class="sign" type="submit" value="sign_up">
+           </center>
+         </form>
+    </div>
+</body>
+</html>
